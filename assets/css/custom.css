@@ -1,1 +1,66 @@
 /* Add here all your css styles (customizations) */
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  }
+
+#modal {
+    max-width: auto;
+    max-height: auto;
+}
+
+.tp-caption.slogan,.slogan
+{
+	background-color:transparent;
+	border-color:transparent;
+	border-radius:0 0 0 0;
+	border-style:none;
+	border-width:0;
+	color:rgba(255,255,255,1.00);
+	font-family: 'Lato', sans-serif !important;
+	font-size:48px;
+	font-style:bold;
+	font-weight:100;
+	letter-spacing:1px;
+	line-height:70px;
+	padding:0;
+	text-decoration:none;
+}
+
+.tp-caption.tituloEspectaculo,.tituloEspectaculo
+{
+	background-color:transparent;
+	border-color:transparent;
+	border-radius:0 0 0 0;
+	border-style:none;
+	border-width:0;
+	color:rgba(255,255,255,1.00);
+	font-family: 'Lato', sans-serif !important;
+	font-size:48px;
+	font-style:normal;
+	font-weight:100;
+	letter-spacing:1px;
+	line-height:70px;
+	padding:0;
+	text-decoration:none;
+}
+
+.tp-caption.subtituloEspectaculo,.subtituloEspectaculo
+{
+	background-color:transparent;
+	border-color:transparent;
+	border-radius:0 0 0 0;
+	border-style:none;
+	border-width:0;
+	color:rgba(255,255,255,1.00);
+	font-family: 'Lato', sans-serif !important;
+	font-size:48px;
+	font-style:bold;
+	font-weight:100;
+	letter-spacing:1px;
+	line-height:70px;
+	padding:0;
+	text-decoration:none;
+}
+
+
