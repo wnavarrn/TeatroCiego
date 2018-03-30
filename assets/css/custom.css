@@ -4,10 +4,24 @@ body {
   font-family: 'Lato', sans-serif !important;
   }
 
-#modal {
+
+/*#modal {
     max-width: auto;
     max-height: auto;
+}*/
+
+/*.modal{
+    display: block !important; /* I added this to see the modal, you don't need this */
+/*}*/
+
+/* Important part */
+/*.modal-dialog{
+    overflow-y: initial !important
 }
+.modal-body{
+    height: 250px;
+    overflow-y: auto;
+}*/
 
 .tp-caption.slogan,.slogan
 {
@@ -38,7 +52,7 @@ body {
 	font-family: 'Lato', sans-serif !important;
 	font-size:48px;
 	font-style:normal;
-	font-weight:100;
+	font-weight:bold;
 	letter-spacing:1px;
 	line-height:70px;
 	padding:0;
@@ -63,27 +77,36 @@ body {
 	text-decoration:none;
 }
 
-.modal-dialog {
-    max-width: 950px;
-	margin: 40px auto;
+.modal-dialog-babilonia {
+	/*height: 900px;*/
+    /*max-width: 950px;*/
+	/*margin: 40px auto;*/
 	background-color: #00988b;
 }
 
-.g-bg-babilonia{
+.modal-dialog-nosotros {
+	/*max-height: 900px;*/
+    /*max-width: 950px;*/
+	/*margin: 40px auto;*/
+	background-color: #630066;
+}
+
+
+/*.g-bg-babilonia{
 	background-color: #00988b;
-}
+}*/
 
-.modal-body {
-    padding: 0px !important;
-}
+/*.modal-body {
+    padding: 50px !important;
+}*/
 
-.container-fluid {
+/*.container-fluid {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
-}
+}*/
 
 .myButton {
 	background-color:#ffffff;
@@ -133,4 +156,121 @@ body {
 	text-decoration:none;
 }
 
+/*.custombox-open.custombox-overlay {
+    
+    opacity: 0.80 !important;
+}*/
 
+
+
+
+/*Quito el border de modal header*/
+.modal-header{
+	border-bottom: 0px !important;
+}
+
+/*Agrego linea vertical en derecha del contenedor*/
+.line-container-left{
+	border-left: 1px solid;
+}
+
+/*Agrego padding en los modals*/
+.padding-container-modal{
+	padding-top: 0px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+/*Modifico el ancho del modal*/
+.modal-lg {
+    max-width: 1080px !important;
+}
+
+/*Bajo un poco mas el modal*/
+.modal-content {
+	top: 100px !important;
+	border-radius: 0;
+}
+
+.content-contacto {
+    line-height: 160%;
+}
+
+
+/*CONTACTO*/
+
+.button-contacto {
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	text-transform: uppercase;
+	color:#630066;
+	font-family: 'Lato', sans-serif;
+	font-size:27px;
+	padding:2px 45px 2px 45px;
+	text-decoration:none;
+	border-radius: 0px;	
+	margin-top:30px;
+	margin-left: 15px;
+}
+
+.title-contacto{
+	font-family:'Lato',sans-serif;
+	font-size:33px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.subtitle-contacto{
+	font-family:'Lato',sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.infotitle-contacto{
+	font-family:'Lato',sans-serif;
+	font-size:21px;
+	font-weight:bold;
+}
+
+.info-contacto{
+	font-family:'Lato',sans-serif;
+	font-size:21px;
+	font-weight : 500;
+}
+
+/*SERVICIO*/
+
+.button-servicios {
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	text-transform: uppercase;
+	color:#00988b;
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	padding:2px 45px 2px 45px;
+	text-decoration:none;
+	border-radius: 0px;	
+	margin-top:30px;
+	margin-left: 15px;
+}
+
+/*Eventos*/
+.title-1{
+	font-family:'Lato',sans-serif;
+	font-size:21px;
+	
+}
+.title-2{
+	font-family:'Lato',sans-serif;
+	font-size:21px;
+	font-weight:bold;
+}
+.title-3{
+	font-family:'Lato',sans-serif;
+	font-size:16px;
+	font-weight:lighter;
+}
