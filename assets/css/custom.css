@@ -1,5 +1,11 @@
 /* Add here all your css styles (customizations) */
 
+a:focus, a:hover{
+	color: #00988b;
+}
+
+
+
 body {
   font-family: 'Lato', sans-serif !important;
   }
@@ -20,37 +26,6 @@ body {
 {
 	background-color: rgb(0,0,0);
 }
-/*#modal {
-    max-width: auto;
-    max-height: auto;
-}*/
-
-/*.modal{
-    display: block !important; /* I added this to see the modal, you don't need this */
-/*}*/
-
-/* Important part */
-/*.modal-dialog{
-    overflow-y: initial !important
-}
-.modal-body{
-    height: 250px;
-    overflow-y: auto;
-}*/
-
-/*.custombox-content{
-    max-width: 1080px !important;
-    max-height: 95%;
-}
-
-.custombox-content .custombox-overlay {
-    position: fixed;
-    overflow: hidden;
-    top: 3px;
-    width: 100%;
-    height: 100%;
-    left: 480px !important;
-}*/
 
 .tp-caption.slogan,.slogan
 {
@@ -105,37 +80,6 @@ body {
 	padding:0;
 	text-decoration:none;
 }
-
-.modal-dialog-babilonia {
-	/*height: 900px;*/
-    /*max-width: 950px;*/
-	/*margin: 40px auto;*/
-	background-color: #00988b;
-}
-
-.modal-dialog-nosotros {
-	/*max-height: 900px;*/
-    /*max-width: 950px;*/
-	/*margin: 40px auto;*/
-	background-color: #630066;
-}
-
-
-/*.g-bg-babilonia{
-	background-color: #00988b;
-}*/
-
-/*.modal-body {
-    padding: 50px !important;
-}*/
-
-/*.container-fluid {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}*/
 
 .info-popup{
 margin-top:30px;
@@ -205,14 +149,6 @@ font-size:16px;
 	padding:0;
 	text-decoration:none;
 }
-
-/*.custombox-open.custombox-overlay {
-    
-    opacity: 0.80 !important;
-}*/
-
-
-
 
 /*Quito el border de modal header*/
 .modal-header{
@@ -334,19 +270,18 @@ font-size:16px;
 /*Eventos*/
 .title-1{
 	font-family:'Lato',sans-serif;
-	font-size:28px;
+	font-size:20px;
 	font-weight:lighter;
 	
 }
 .title-2{
 	font-family:'Lato',sans-serif;
-	font-size:28px;
+	font-size:23px;
 	font-weight:bolder;
-	font-weight: 900;
 }
 .title-3{
 	font-family:'Lato',sans-serif;
-	font-size:21px;
+	font-size:15px;
 	font-weight:lighter;
 }
 
@@ -373,4 +308,20 @@ font-size:16px;
 	font-family:'Lato',sans-serif;
 	font-size:13px;
 	font-weight:black;
+}
+
+/*TALLERES*/
+.title-taller{
+	font-family:'Lato',sans-serif;
+	font-size:33px;
+	font-weight:bold;
+}
+
+.text-taller{
+	font-family:'Lato',sans-serif;
+	font-size:15px;
+}
+
+.group-title-evento{
+	line-height: 28px;
 }
